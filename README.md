@@ -4,7 +4,7 @@
 This is a customized `Oceanic Next` color theme, optimized for the `Operator Mono` font.
 
 ## Editors
-* Visual Studio Code
+* Visual Studio Code (https://github.com/SintrumIT/oceanic-next-italic/tree/master/vscode)
 * Sublime Text 2/3 (todo)
 * Atom (todo)
 * Textmate

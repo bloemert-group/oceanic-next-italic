@@ -12,12 +12,6 @@ This is a customized `Oceanic Next` color theme for Visual Studio Code, optimize
 Recommended font:  
 Operator Mono (http://www.typography.com/fonts/operator/overview/)
 
-Alternatives:  
-todo
-
-## Screenshots
-todo
-
 ## Help
 File an issue here:  
 https://github.com/SintrumIT/oceanic-next-italic/issues
@@ -27,8 +21,4 @@ We accept contributions! Please send a pull request
 https://github.com/SintrumIT/oceanic-next-italic/pulls
 
 ## Credits
-Oceanic Next themes:  
-* http://labs.voronianski.com/oceanic-next-color-scheme/
 * https://github.com/mhartington/vscode-oceanicnext
-
-Dan Abramov (@gaearon) for promoting the `Operator Mono` font and `Oceanic Next` theme

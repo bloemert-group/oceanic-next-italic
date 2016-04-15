@@ -12,5 +12,5 @@ call vsce publish patch :: Default to patch update
 echo Done
 
 echo Committing version bump...
-call git commit -am "Version bump"
+call git commit -am "Version bump for VS Code"
 echo Done
