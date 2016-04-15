@@ -2,7 +2,7 @@
     "name": "theme-oceanic-next-italic",
     "displayName": "Oceanic Next Italic",
     "description": "Customized Oceanic Next theme with italic flavours",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "publisher": "SintrumIT",
     "engines": {
         "vscode": "^1.0.0"
@@ -10,6 +10,11 @@
     "categories": [
         "Themes"
     ],
+    "icon": "images/icon.png",
+    "galleryBanner": {
+        "color": "#1B2B34",
+        "theme": "dark"
+    },
     "contributes": {
         "themes": [
             {
@@ -18,5 +23,13 @@
                 "path": "./themes/Oceanic Next Italic.tmTheme"
             }
         ]
+    },
+    "bugs": {
+        "url": "https://github.com/SintrumIT/oceanic-next-italic/issues"
+    },
+    "homepage": "https://github.com/SintrumIT/oceanic-next-italic/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SintrumIT/oceanic-next-italic.git"
     }
 }
