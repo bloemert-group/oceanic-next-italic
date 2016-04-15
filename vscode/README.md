@@ -1,13 +1,12 @@
 # Oceanic Next Italic
 
 ## Introduction
-This is a customized `Oceanic Next` color theme, optimized for the `Operator Mono` font.
+This is a customized `Oceanic Next` color theme for Visual Studio Code, optimized for the `Operator Mono` font.
 
-## Editors
-* Visual Studio Code
-* Sublime Text 2/3 (todo)
-* Atom (todo)
-* Textmate
+## Installation
+1. Open Visual Studio Code, press `F1` (or `Ctrl+Shift+P`) and paste the following command: `ext install theme-oceanic-next-italic`
+
+2. Press `F1` again, type `Color Theme` and select `Oceanic Next Italic` (or via `File > Menu > Preferences > Color Theme`)
 
 ## Fonts
 Recommended font:  
@@ -30,5 +29,6 @@ https://github.com/SintrumIT/oceanic-next-italic/pulls
 ## Credits
 Oceanic Next themes:  
 * http://labs.voronianski.com/oceanic-next-color-scheme/
+* https://github.com/mhartington/vscode-oceanicnext
 
 Dan Abramov (@gaearon) for promoting the `Operator Mono` font and `Oceanic Next` theme

@@ -20,7 +20,7 @@
             {
                 "label": "Oceanic Next Italic",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Oceanic Next Italic.tmTheme"
+                "path": "../tmtheme/Oceanic Next Italic.tmTheme"
             }
         ]
     },
