@@ -2,7 +2,7 @@
     "name": "theme-oceanic-next-italic",
     "displayName": "Oceanic Next Italic",
     "description": "Customized Oceanic Next theme with italic flavours",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "publisher": "SintrumIT",
     "engines": {
         "vscode": "^1.0.0"
@@ -10,7 +10,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "../images/icon.png",
+    "icon": "images/icon.png",
     "galleryBanner": {
         "color": "#1B2B34",
         "theme": "dark"
