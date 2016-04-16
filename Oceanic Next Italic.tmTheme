@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Dmitri Voronianski (http://pixelhunter.me)</string>
+	<string>Dmitri Voronianski (http://pixelhunter.me), Sintrum IT (https://github.com/SintrumIT/oceanic-next-italic)</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>gutterSettings</key>
@@ -20,9 +20,9 @@
 		<string>#a7adba</string>
 	</dict>
 	<key>name</key>
-	<string>Oceanic Next</string>
+	<string>Oceanic Next Italic</string>
 	<key>semanticClass</key>
-	<string>oceanic.next.dark</string>
+	<string>oceanic.next.italic.dark</string>
 	<key>settings</key>
 	<array>
 		<dict>
