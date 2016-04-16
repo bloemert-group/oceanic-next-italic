@@ -5,12 +5,15 @@
 
 2. Press `F1` again, type `Color Theme` and select `Oceanic Next Italic` (or via `File > Menu > Preferences > Color Theme`)
 
+## Screenshots
+![Oceanic Next Italic](https://github.com/SintrumIT/oceanic-next-italic/blob/master/images/screenshot.png "Oceanic Next Italic")
+
 ## Help
-File an issue here:  
+File an issue here:
 https://github.com/SintrumIT/oceanic-next-italic/issues
 
 ## Contributions
-We accept contributions! Please send a pull request  
+We accept contributions! Please send a pull request
 https://github.com/SintrumIT/oceanic-next-italic/pulls
 
 ## Credits
