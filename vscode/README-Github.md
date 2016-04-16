@@ -4,11 +4,11 @@
 Install:  
 1. Open Visual Studio Code  
 2. Press `F1` (or `Ctrl+Shift+P`)  
-3. Paste the following command: `ext install theme-oceanic-next-italic` and hit enter
+3. Paste the following command: `ext install theme-oceanic-next-italic` and hit Enter
 
 Select Theme (manually):  
 1. Press `F1`  
-2. Type `Color Theme` and hit enter  
+2. Type `Color Theme` and hit Enter  
 3. Select `Oceanic Next Italic` and hit enter (or via `File > Menu > Preferences > Color Theme`)
 
 ## Marketplace
