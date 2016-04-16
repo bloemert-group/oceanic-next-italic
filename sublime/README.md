@@ -5,13 +5,13 @@
 ### via Package Control
 
 1. Make sure you already have Package Control installed  (https://packagecontrol.io/installation)  
-2. Choose `Install Package` from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, ⇧⌘P on Mac)  
+2. Choose `Install Package` from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `⇧⌘P `on Mac)  
 3. Select `Oceanic Next Italic Color Scheme` and hit Enter
 
 ###  Manual Installation
 
 1. Download the `Oceanic Next Italic.tmTheme` file ([Link](https://raw.githubusercontent.com/SintrumIT/oceanic-next-italic/master/Oceanic%20Next%20Italic.tmTheme))  
-2. Choose `Browse Packages` from the Command Palette (Ctrl+Shift+P on Windows/Linux, ⇧⌘P on iOS)  
+2. Choose `Browse Packages` from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `⇧⌘P `on Mac)
 3. Copy the .tmTheme file to this Packages folder
 
 ## Packagecontrol.io
