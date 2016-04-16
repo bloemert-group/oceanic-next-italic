@@ -11,6 +11,10 @@ echo ## Copying theme to themes folder of this package...
 copy "..\Oceanic Next Italic.tmTheme" ".\themes\Oceanic Next Italic.tmTheme" >nul 2>&1
 echo Done
 
+echo ## Setting README for Marketplace as default
+copy ".\README-Marketplace.md" ".\README.md" 
+echo Done
+
 :: TODO: check if  is already installed
 echo ## Installing latest VSCode Extension Manager (vsce)...
 call npm install -g vsce
@@ -24,6 +28,10 @@ if "%Answer%" NEQ "y" ( echo Exiting... & exit /b )
 
 echo ## Publishing to marketplace...
 call vsce publish patch :: Default to patch update
+echo Done
+
+echo ## Setting README for Github as default
+copy ".\README-Github.md" ".\README.md" 
 echo Done
 
 echo ## Committing version bump...
