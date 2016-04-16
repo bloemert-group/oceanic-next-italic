@@ -1,4 +1,4 @@
-# Oceanic Next Italic for Visual Studio Code
+# Oceanic Next _Italic_ for Visual Studio Code
 
 ## Installation
 
