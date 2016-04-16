@@ -8,7 +8,6 @@ By using more _italics_ for specific code parts it looks very elegant!
 * Visual Studio Code (https://github.com/SintrumIT/oceanic-next-italic/tree/master/vscode)
 * Sublime Text 2/3 (https://github.com/SintrumIT/oceanic-next-italic/tree/master/sublime)
 * Atom (todo)
-* Textmate
 
 ## Fonts
 Recommended font:
