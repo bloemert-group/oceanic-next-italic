@@ -1,4 +1,4 @@
-# Oceanic Next Italic for Visual Studio Code
+# Oceanic Next _Italic_ for Visual Studio Code
 
 ## Introduction
 This is a customized `Oceanic Next` color theme, optimized for the `Operator Mono` font. 
