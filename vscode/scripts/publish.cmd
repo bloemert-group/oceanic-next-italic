@@ -31,5 +31,5 @@ echo Done
 
 echo ## Cleaning up...
 del /F/Q/A ".\themes\Oceanic Next Italic.tmTheme"
-del /S/Q ".\themes"
+rmdir /S/Q ".\themes"
 echo Done
