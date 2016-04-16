@@ -1,4 +1,4 @@
-# Oceanic Next Italic for Sublime Text 2/3
+# Oceanic Next _Italic_ for Sublime Text 2/3
 
 ## Installation
 
