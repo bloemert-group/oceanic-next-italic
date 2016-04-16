@@ -11,6 +11,7 @@ echo ## Copying theme to themes folder of this package...
 copy "..\Oceanic Next Italic.tmTheme" ".\themes\Oceanic Next Italic.tmTheme" >nul 2>&1
 echo Done
 
+:: TODO: check if  is already installed
 echo ## Installing latest VSCode Extension Manager (vsce)...
 call npm install -g vsce
 echo Done
