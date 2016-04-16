@@ -6,7 +6,7 @@
 2. Press `F1` again, type `Color Theme` and select `Oceanic Next Italic` (or via `File > Menu > Preferences > Color Theme`)
 
 ## Screenshots
-![Oceanic Next Italic](https://github.com/SintrumIT/oceanic-next-italic/blob/master/images/screenshot.png "Oceanic Next Italic")
+![Oceanic Next Italic](https://raw.githubusercontent.com/SintrumIT/oceanic-next-italic/master/images/screenshot.png "Oceanic Next Italic")
 
 ## Help
 File an issue here:
