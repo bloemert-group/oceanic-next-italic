@@ -1,4 +1,4 @@
-# Oceanic Next Italic
+# Oceanic Next _Italic_
 
 ## Introduction
 This is a customized `Oceanic Next` color theme, optimized for the `Operator Mono` font. 
