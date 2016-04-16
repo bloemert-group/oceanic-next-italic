@@ -3,8 +3,12 @@
 cd %~dp0
 cd ../
 
-echo ## Copying theme to root of this package...
-copy "..\Oceanic Next Italic.tmTheme" ".\Oceanic Next Italic.tmTheme" >nul 2>&1
+echo ## Creating themes folder in root of this package...
+mkdir ".\themes"
+echo Done
+
+echo ## Copying theme to themes folder of this package...
+copy "..\Oceanic Next Italic.tmTheme" ".\themes\Oceanic Next Italic.tmTheme" >nul 2>&1
 echo Done
 
 echo ## Installing latest VSCode Extension Manager (vsce)...
@@ -14,7 +18,7 @@ echo Done
 echo ## Checking the contents of the package...
 call vsce ls
 
-set /p Answer=Does this look okay? (y/n) 
+set /p Answer=Does this look okay? (y/n)
 if "%Answer%" NEQ "y" ( echo Exiting... & exit /b )
 
 echo ## Publishing to marketplace...
@@ -26,5 +30,6 @@ call git commit -am "Version bump for VS Code"
 echo Done
 
 echo ## Cleaning up...
-del ".\Oceanic Next Italic.tmTheme"
+del /F/Q/A ".\themes\Oceanic Next Italic.tmTheme"
+del /S/Q ".\themes"
 echo Done
