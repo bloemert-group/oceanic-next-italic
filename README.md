@@ -32,4 +32,4 @@ https://github.com/SintrumIT/oceanic-next-italic/pulls
 Oceanic Next themes:
 * http://labs.voronianski.com/oceanic-next-color-scheme/
 
-Dan Abramov (@gaearon) for promoting the `Operator Mono` font and `Oceanic Next` theme
+Dan Abramov ([@gaearon](https://github.com/gaearon)) for promoting the `Operator Mono` font and `Oceanic Next` theme
