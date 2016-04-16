@@ -12,7 +12,7 @@ copy "..\Oceanic Next Italic.tmTheme" ".\themes\Oceanic Next Italic.tmTheme" >nu
 echo Done
 
 echo ## Setting README for Marketplace as default
-copy ".\README-Marketplace.md" ".\README.md" 
+copy ".\README-Marketplace.md" ".\README.md" >nul 2>&1
 echo Done
 
 :: TODO: check if  is already installed
