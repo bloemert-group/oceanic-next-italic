@@ -1,13 +1,13 @@
 # Oceanic Next _Italic_
 
 ## Introduction
-This is a customized `Oceanic Next` color theme, optimized for the `Operator Mono` font. 
+This is a customized `Oceanic Next` color theme, optimized for the `Operator Mono` font.
 By using more _italics_ for specific code parts it looks very elegant!
 
 ## Editors
 * Visual Studio Code (https://github.com/SintrumIT/oceanic-next-italic/tree/master/vscode)
 * Sublime Text 2/3 (https://github.com/SintrumIT/oceanic-next-italic/tree/master/sublime)
-* Atom (todo)
+* Atom (https://github.com/SintrumIT/oceanic-next-italic/tree/master/atom)
 
 ## Fonts
 Recommended font:
