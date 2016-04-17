@@ -4,7 +4,7 @@ cd %~dp0
 cd ../
 
 echo ## Copying package.json to root folder of this repo...
-move ".\package.json" "..\package.json" >nul 2>&1
+copy ".\package.json" "..\package.json" >nul 2>&1
 echo Done
 
 cd ..
@@ -19,8 +19,12 @@ call apm publish patch :: Default to patch update
 echo Done
 
 echo ## Copying package.json back to atom folder of this repo...
-move ".\package.json" ".\atom\package.json" >nul 2>&1
-echo Dne
+copy ".\package.json" ".\atom\package.json" >nul 2>&1
+echo Done
+
+echo ## Cleaning up...
+del /F/Q/A ".\package.json" >nul 2>&1
+echo Done
 
 echo ## Committing version bump...
 call git commit -am "Version bump for Atom"
