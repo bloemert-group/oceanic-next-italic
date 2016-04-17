@@ -1,0 +1,193 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: rgba(101, 115, 126, 0.33);
+}
+
+.comment, .punctuation.definition.comment {
+  color: #65737e;
+}
+
+.variable {
+  color: #CDD3DE;
+}
+
+.keyword, .storage.type, .storage.modifier {
+  color: #C594C5;
+}
+
+.keyword.operator, .constant.other.color, .punctuation, .meta.tag, .punctuation.definition.tag, .punctuation.separator.inheritance.php, .punctuation.definition.tag.html, .punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html, .punctuation.section.embedded, .keyword.other.template, .keyword.other.substitution {
+  color: #5FB3B3;
+}
+
+.entity.name.tag, .meta.tag.sgml, .markup.deleted.git_gutter {
+  color: #EB606B;
+}
+
+.entity.name.function, .meta.function-call, .variable.function, .support.function, .keyword.other.special-method, .meta.block-level {
+  color: #6699CC;
+}
+
+.support.other.variable, .string.other.link {
+  color: #F2777A;
+}
+
+.constant.numeric, .constant.language, .support.constant, .constant.character, .variable.parameter, .keyword.other.unit {
+  color: #F99157;
+}
+
+.string, .constant.other.symbol, .constant.other.key, .entity.other.inherited-class, .markup.heading, .markup.inserted.git_gutter, .meta.group.braces.curly .constant.other.object.key.js .string.unquoted.label.js {
+  color: #99C794;
+}
+
+.entity.name.class, .entity.name.type.class, .support.type, .support.class, .support.orther.namespace.use.php, .meta.use.php, .support.other.namespace.php, .markup.changed.git_gutter {
+  color: #FAC863;
+}
+
+.entity.name.module.js, .variable.import.parameter.js, .variable.other.class.js {
+  color: #EC5F67;
+}
+
+.variable.language {
+  font-style: italic;
+  color: #EC5F67;
+}
+
+.entity.name.method.js {
+  color: #D8DEE9;
+}
+
+.meta.class-method.js .entity.name.function.js, .variable.function.constructor {
+  color: #D8DEE9;
+}
+
+.entity.other.attribute-name {
+  font-style: italic;
+  color: #BB80B3;
+}
+
+.markup.inserted {
+  color: #99C794;
+}
+
+.markup.deleted {
+  color: #EC5F67;
+}
+
+.markup.changed {
+  color: #BB80B3;
+}
+
+.string.regexp {
+  color: #5FB3B3;
+}
+
+.constant.character.escape {
+  color: #5FB3B3;
+}
+
+* .url *, * .link *, * .uri * {
+  text-decoration: underline;
+}
+
+.constant.numeric.line-number.find-in-files:not(.match) {
+  color: #AB7967;
+}
+
+.entity.name.filename.find-in-files {
+  color: #99C794;
+}
+
+.tag.decorator.js .entity.name.tag.js, .tag.decorator.js .punctuation.definition.tag.js {
+  font-style: italic;
+  color: #6699CC;
+}
+
+.source.js .constant.other.object.key.js .string.unquoted.label.js {
+  font-style: italic;
+  color: #EC5F67;
+}
+
+.source.json .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .string.quoted.double.json:not(.meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .string.quoted.double.json), .source.json .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .punctuation.definition.string:not(.meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .punctuation.definition.string) {
+  color: #FAC863;
+}
+
+.source.json .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .string.quoted.double.json:not(.meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .string.quoted.double.json), .source.json .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .punctuation.definition.string:not(.meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .punctuation.definition.string) {
+  color: #C594C5;
+}
+
+.source.json .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .string.quoted.double.json:not(.meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .string.quoted.double.json), .source.json .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .punctuation.definition.string:not(.meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .punctuation.definition.string) {
+  color: #D8DEE9;
+}
+
+.source.json .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .string.quoted.double.json:not(.meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .string.quoted.double.json), .source.json .meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .punctuation.definition.string:not(.meta .meta .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .punctuation.definition.string) {
+  color: #6699CC;
+}
+
+.source.json .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .string.quoted.double.json:not(.meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .string.quoted.double.json), .source.json .meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .punctuation.definition.string:not(.meta .meta .meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .punctuation.definition.string) {
+  color: #AB7967;
+}
+
+.source.json .meta .meta .meta .meta .meta .meta.structure.dictionary.json .string.quoted.double.json:not(.meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .string.quoted.double.json), .source.json .meta .meta .meta .meta .meta .meta.structure.dictionary.json .punctuation.definition.string:not(.meta .meta .meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .punctuation.definition.string) {
+  color: #EC5f67;
+}
+
+.source.json .meta .meta .meta .meta.structure.dictionary.json .string.quoted.double.json:not(.meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .string.quoted.double.json), .source.json .meta .meta .meta .meta.structure.dictionary.json .punctuation.definition.string:not(.meta .meta .meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .punctuation.definition.string) {
+  color: #F99157;
+}
+
+.source.json .meta .meta.structure.dictionary.json .string.quoted.double.json:not(.meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .string.quoted.double.json), .source.json .meta .meta.structure.dictionary.json .punctuation.definition.string:not(.meta .meta.structure.dictionary.json .meta.structure.dictionary.value.json .punctuation.definition.string) {
+  color: #FAC863;
+}
+
+.source.json .meta.structure.dictionary.json .string.quoted.double.json:not(.meta.structure.dictionary.json .meta.structure.dictionary.value.json .string.quoted.double.json), .source.json .meta.structure.dictionary.json .punctuation.definition.string:not(.meta.structure.dictionary.json .meta.structure.dictionary.value.json .punctuation.definition.string) {
+  color: #C594C5;
+}

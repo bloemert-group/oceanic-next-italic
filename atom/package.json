@@ -1,0 +1,27 @@
+{
+  "name": "oceanic-next-italic-syntax",
+  "displayName": "Oceanic Next Italic",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Customized Oceanic Next theme with italic flavours",
+  "author": {
+    "name": "Sintrum IT",
+    "url": "http://sintrum.nl"
+  },
+  "contributors": [
+    "Jarno Nijboer",
+    "Gerjan Konterman"
+  ],
+  "keywords": [
+    "syntax",
+    "theme",
+    "oceanic next",
+    "italic",
+    "operator mono"
+  ],
+  "repository": "https://github.com/SintrumIT/oceanic-next-italic",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
