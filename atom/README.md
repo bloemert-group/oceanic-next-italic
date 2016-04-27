@@ -4,7 +4,7 @@
 
 ### Atom Package Manager (APM)
 ```bash
-apm install oceanic-next-italic-syntax
+apm install oceanic-next-italic
 ```
 
 ### Git clone
@@ -14,7 +14,7 @@ git clone https://github.com/SintrumIT/oceanic-next-italic --depth=1
 ```
 
 ## Atom.io
-https://atom.io/themes/oceanic-next-italic-syntax
+https://atom.io/themes/oceanic-next-italic
 
 ## Screenshots
 ![Oceanic Next Italic](https://raw.githubusercontent.com/SintrumIT/oceanic-next-italic/master/images/screenshot.png "Oceanic Next Italic")
