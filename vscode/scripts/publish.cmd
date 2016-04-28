@@ -7,8 +7,9 @@ echo ## Creating themes folder in root of this package...
 mkdir ".\themes"
 echo Done
 
-echo ## Copying theme to themes folder of this package...
+echo ## Copying themes to themes folder of this package...
 copy "..\Oceanic Next Italic.tmTheme" ".\themes\Oceanic Next Italic.tmTheme" >nul 2>&1
+copy "..\Oceanic Next Italic - White.tmTheme" ".\themes\Oceanic Next Italic - White.tmTheme" >nul 2>&1
 echo Done
 
 echo ## Setting README for Marketplace as default
@@ -31,7 +32,7 @@ call vsce publish patch :: Default to patch update
 echo Done
 
 echo ## Setting README for Github as default
-copy ".\README-Github.md" ".\README.md" 
+copy ".\README-Github.md" ".\README.md"
 echo Done
 
 echo ## Committing version bump...
@@ -40,5 +41,6 @@ echo Done
 
 echo ## Cleaning up...
 del /F/Q/A ".\themes\Oceanic Next Italic.tmTheme"
+del /F/Q/A ".\themes\Oceanic Next Italic - White.tmTheme"
 rmdir /S/Q ".\themes"
 echo Done

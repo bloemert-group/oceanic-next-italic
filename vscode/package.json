@@ -21,6 +21,10 @@
                 "label": "Oceanic Next Italic",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Oceanic Next Italic.tmTheme"
+            }, {
+                "label": "Oceanic Next Italic - White",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Oceanic Next Italic - White.tmTheme"
             }
         ]
     },
