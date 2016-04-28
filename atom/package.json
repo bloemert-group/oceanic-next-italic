@@ -13,7 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "styles": [
-    "./atom/styles/base.less"
+    "./styles/base.less"
   ],
   "readmeFilename": "README.md",
   "bugs": {
