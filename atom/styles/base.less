@@ -15,8 +15,14 @@ atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cu
   color: @syntax-gutter-text-color-selected;
 }
 
-atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+atom-text-editor .line-number.cursor-line-no-selection, :host .line-number.cursor-line-no-selection {
   color: @syntax-gutter-text-color-selected;
+}
+
+.gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-text-color;
+  font-style: italic;
 }
 
 atom-text-editor .wrap-guide, :host .wrap-guide {
@@ -58,6 +64,8 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 
 .variable {
   color: #CDD3DE;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .keyword, .storage.type, .storage.modifier {
@@ -65,8 +73,13 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   font-weight: 500;
 }
 
-.keyword.operator, .constant.other.color, .punctuation, .meta.tag, .punctuation.definition.tag, .punctuation.separator.inheritance.php, .punctuation.definition.tag.html, .punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html, .punctuation.section.embedded, .keyword.other.template, .keyword.other.substitution {
+.constant.other.color, .punctuation, .punctuation.definition.tag, .punctuation.separator.inheritance.php, .punctuation.definition.tag.html, .punctuation.definition.tag.begin.html, .punctuation.definition.tag.end.html, .punctuation.section.embedded, .keyword.other.template, .keyword.other.substitution {
   color: #5FB3B3;
+}
+
+.meta.tag {
+  color: #CDD3DE;
+  font-weight: 400;
 }
 
 .entity.name.tag, .meta.tag.sgml, .markup.deleted.git_gutter {
@@ -110,13 +123,16 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   font-weight: 500;
 }
 
-.meta.class-method.js .entity.name.function.js, .variable.function.constructor {
+.meta.class-method.js .entity.name.function.js,
+.variable.function.constructor, .keyword.operator {
   color: #D8DEE9;
+  font-style: italic;
 }
 
 .entity.other.attribute-name {
   font-style: italic;
   color: #BB80B3;
+  font-weight: 500;
 }
 
 .markup.inserted {
