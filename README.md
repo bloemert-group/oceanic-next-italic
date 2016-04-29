@@ -7,7 +7,9 @@ By using more _italics_ for specific code parts it looks very elegant!
 ## Editors
 * Visual Studio Code (https://github.com/SintrumIT/oceanic-next-italic/tree/master/vscode)
 * Sublime Text 2/3 (https://github.com/SintrumIT/oceanic-next-italic/tree/master/sublime)
-* Atom (https://github.com/SintrumIT/oceanic-next-italic/tree/master/atom)
+* Atom
+  * Dark (https://github.com/SintrumIT/oceanic-next-italic-atom/tree/master/)
+  * White (https://github.com/SintrumIT/oceanic-next-italic-white-atom/tree/master/)
 
 ## Fonts
 Recommended font:
