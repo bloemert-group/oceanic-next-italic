@@ -248,7 +248,7 @@
 				<key>foreground</key>
 				<string>#BB80B3</string>
 				<key>fontWeight</key>
-				<key>500</key>
+				<string>500</string>
 			</dict>
 		</dict>
 		<dict>
