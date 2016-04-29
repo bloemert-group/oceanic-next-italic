@@ -293,7 +293,7 @@
 			<dict>
 				<key>foreground</key>
 				<string>#5FB3B3</string>
-				<key>font-weight</key>
+				<key>fontWeight</key>
 				<string>500</string>
 			</dict>
 		</dict>
