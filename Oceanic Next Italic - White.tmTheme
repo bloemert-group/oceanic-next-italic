@@ -110,6 +110,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#5FB3B3</string>
+				<key>fontWeight</key>
+				<string>500</string>
 			</dict>
 		</dict>
 		<dict>
@@ -291,6 +293,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#5FB3B3</string>
+				<key>font-weight</key>
+				<string>500</string>
 			</dict>
 		</dict>
 		<dict>
