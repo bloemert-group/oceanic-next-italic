@@ -18,6 +18,8 @@
 		<string>#4f5b66</string>
 		<key>selectionForeground</key>
 		<string>#a7adba</string>
+		<key>fontStyle</key>
+		<string>italic</string>
 	</dict>
 	<key>name</key>
 	<string>Oceanic Next Italic - White</string>
@@ -68,6 +70,10 @@
 			<dict>
 				<key>foreground</key>
 				<string>#CDD3DE</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>fontWeight</key>
+				<string>500</string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,13 +85,27 @@
 			<dict>
 				<key>foreground</key>
 				<string>#C594C5</string>
+				<key>fontWeight</key>
+				<string>500</string>
+			</dict>
+		</dict>
+		<dict>
+			<string>Text in Jsx</string>
+			<key>text</key>
+			<string>meta.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CDD3DE</string>
+				<key>fontWeight</key>
+				<string>400</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Operator, Misc</string>
 			<key>scope</key>
-			<string>keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
+			<string>keyword.operator, constant.other.color, punctuation, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -100,7 +120,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#EB606B</string>
+				<string>#CDD3DE</string>
+				<key>fontWeight</key>
+				<string>500</string>
 			</dict>
 		</dict>
 		<dict>
@@ -146,7 +168,9 @@
 				<key>fontStyle</key>
 				<string>normal</string>
 				<key>foreground</key>
-				<string>#99C794</string>
+				<string>#5FB3B3</string>
+				<key>fontWeight</key>
+				<string>500</string>
 			</dict>
 		</dict>
 		<dict>
@@ -192,7 +216,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D8DEE9</string>
+				<string>#F99157</string>
+				<key>fontWeight</key>
+				<string>500</string>
 			</dict>
 		</dict>
 		<dict>
@@ -204,6 +230,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#D8DEE9</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -217,6 +245,8 @@
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#BB80B3</string>
+				<key>fontWeight</key>
+				<key>500</key>
 			</dict>
 		</dict>
 		<dict>
