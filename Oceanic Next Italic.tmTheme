@@ -55,6 +55,8 @@
 			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
+        <key>fontStyle</key>
+        <string>italic</string>
 				<key>foreground</key>
 				<string>#65737e</string>
 			</dict>
@@ -85,7 +87,7 @@
 			<key>name</key>
 			<string>Operator, Misc</string>
 			<key>scope</key>
-			<string>keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution</string>
+			<string>keyword.operator, constant.other.color, punctuation, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, punctuation.section.embedded, keyword.other.template, keyword.other.substitution, punctuation.terminator.statement</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -125,9 +127,9 @@
 				<string>#F2777A</string>
 			</dict>
 		</dict>
-		<dict>
+    <dict>
 			<key>name</key>
-			<string>Number, Constant, Function Argument, Tag Attribute, Embedded</string>
+			<string>Number, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
 			<string>constant.numeric, constant.language, support.constant, constant.character, variable.parameter, keyword.other.unit</string>
 			<key>settings</key>
@@ -136,6 +138,19 @@
 				<string>#F99157</string>
 			</dict>
 		</dict>
+    <dict>
+      <key>name</key>
+      <string>Constant (language) this</string>
+      <key>scope</key>
+      <string>constant.language.this.js</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#EC5F67</string>
+      </dict>
+    </dict>
 		<dict>
 			<key>name</key>
 			<string>String, Symbols, Inherited Class, Markup Heading</string>
