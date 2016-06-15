@@ -55,8 +55,8 @@
 			<string>comment, punctuation.definition.comment</string>
 			<key>settings</key>
 			<dict>
-        <key>fontStyle</key>
-        <string>italic</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#65737e</string>
 			</dict>
@@ -127,7 +127,7 @@
 				<string>#F2777A</string>
 			</dict>
 		</dict>
-    <dict>
+		<dict>
 			<key>name</key>
 			<string>Number, Function Argument, Tag Attribute, Embedded</string>
 			<key>scope</key>
@@ -138,19 +138,19 @@
 				<string>#F99157</string>
 			</dict>
 		</dict>
-    <dict>
-      <key>name</key>
-      <string>Constant (language) this</string>
-      <key>scope</key>
-      <string>constant.language.this.js</string>
-      <key>settings</key>
-      <dict>
-        <key>fontStyle</key>
-        <string>italic</string>
-        <key>foreground</key>
-        <string>#EC5F67</string>
-      </dict>
-    </dict>
+		<dict>
+			<key>name</key>
+			<string>Constant (language) this</string>
+			<key>scope</key>
+			<string>constant.language.this.js</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#EC5F67</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>String, Symbols, Inherited Class, Markup Heading</string>
